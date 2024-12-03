@@ -14,7 +14,8 @@
     <meta property="og:image" content="img/logo.webp" />
     <link href="img/logo.webp" rel="shortcut icon"/>
     <meta name="robots" content="index,follow">
-    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="preload" href="css/tailwind.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/tailwind.min.css"></noscript>
     <style>
         .work-sans {
             font-family: 'Work Sans', sans-serif;
